@@ -1,0 +1,21 @@
+
+
+Root directory is the most important directory in the Linux file system. 
+It is the parent directory to all other directories present in the file system.
+ It is denoted by /. You can navigate to the root directory from any other directory by using the following command.
+
+cd /
+
+/ Root directory(parent)
+~ cd root (root directory in Root )
+
+
+to see the root dirctory 
+command cd /
+then ls -l /
+ 
+to see user in the system 
+command ls -l usr/bin/users
+
+to see the group 
+command : etc/bin/group 
