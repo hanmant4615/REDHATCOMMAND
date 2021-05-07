@@ -1,0 +1,51 @@
+
+Users and Group
+
+Creating the users
+
+Command: useradd USERS_NAME
+
+each user must have a password. 
+To add passwords we use  passwd command 
+
+syntax : passwd ******
+
+to change the user "su" command is use 
+i.e. su user_name
+
+To find the user the "whoami" command is use
+
+
+ create the groups 
+command : groupadd
+syntax: groupadd groupA
+
+manage ownership and groups:
+
+ To change the user/owner associated with file then use " chown  " command
+syntax :  chown user_name
+ To change the group associated with file then use  " chown :group_name file_name " format
+To change the owner and group at the same time  then use "chown user_name:group_name file_name"
+
+
+manage permissions
+
+The change mode or chmod command sets permissions. The syntax is straight-forward:
+chmod permissions resource-name
+
+Access level	Octal value
+Read	                      4
+Write	                      2
+Execute	                      1
+
+Each identity (user, group, others) has a position:
+Identity	Position
+User	First or left-most
+Group	Middle
+Others	Last or right-most
+ 
+SELinux  
+
+Security-Enhanced Linux (SELinux) is a security architecture for Linux systems that allows administrators to have more control over who can access the system. It was originally developed by the United States National Security Agency (NSA) as a series of patches to the Linux kernel using Linux Security Modules (LSM).  
+
+SELinux was released to the open source community in 2000, and was integrated into the upstream Linux kernel in 2003.
