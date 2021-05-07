@@ -1,0 +1,47 @@
+
+
+Hardlink and softlink 
+
+1. Create hard link to a file
+To create a hard link to a file, you can use the ln command without any options like this:
+
+ ln target_file link_name
+
+2. Create soft link to a file
+To create a symbolic link to a file, use the option -s with the target file name and the link name
+
+syntax =  ln -s target_file link_name
+
+3. Create soft link to a directory
+Creating a soft link to a directory is the same as creating symbolic link to a file. You just need to replace the target file name/path with the directory name/path.
+
+ syntax = ln -s target_directory link_name
+
+
+The ln command has two options for this purpose:
+
+-i: The interactive mode asks you if you want to overwrite the existing link.
+-f: The force mode just updates the existing link without any confirmation.
+
+
+Hard Links
+These links point to the same file
+Have the same inode number.
+They can not span over multiple 
+filesystems.
+Can not be used on directories
+
+softlink 
+
+Also called as a symbolic link.
+Can link files on different file 
+systems.
+Can be used on directories.
+
+hardlink softlink 
+
+to link the file 
+command ln 
+syntax = ln filename type_of_link
+
+
