@@ -1,0 +1,63 @@
+pwd = see current directory 
+
+
+
+mkdir = make a directory
+if already directory present then it shows error files exits
+
+
+cd = change directory
+
+
+touch = create the empty file
+
+
+cat = read the  content in the file 
+
+to write content in file  1) echo command syntax: echo "data" > filename (when call second time it replace first content on the file)
+2) vi editor syntax = vi filename
+
+ls = list the item in directory 
+
+
+The ls -l command displays directory contents in long format. The long format contains both permissions and ownership
+
+
+df = shows he size ,info of directiory
+
+cp =copy the content from file to file 
+syntax = cp soruce_file destination_file
+
+for directory 
+cp -r  soruce_file destination_file
+
+
+to remove the file 
+command = rm
+syntax = rm file_name
+
+To removr=e the directory 
+
+rmdir file_name (it works only when directory is empty beside they give warning directory is not empty)
+
+
+
+To see the first 10 file or content 
+command =ls |head
+
+to see the process run in cpu 
+command top
+
+to see the working or use of the command 
+for root user use command syntax  command --help
+for user syntax man command
+
+
+
+
+to see the permission on the file 
+command ls - l head
+
+
+to delete the coomand in command prompt then 
+command = clear
